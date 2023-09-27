@@ -11,5 +11,5 @@ Run dropcount.bat
 
 # Parameters
 
-Specify the template image files in /Templates/ and index the file names in drops.json
+Specify the template image files in drop-counter\Templates\ and index the file names in drops.json
 
