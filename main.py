@@ -160,7 +160,13 @@ def process():
         if n_matches > 0:
             template_count[template_name_list[i]] += 1
             print(f'Detected {template_name_list[i]} ({maxVal})    Total: {template_count[template_name_list[i]]}')
-    print(f'Total kills: {total_count}')
+    
+    # Print total count
+    outmessage = f'Total kills: {total_count}    '
+    for name in template_name_list:
+        outmessage += f'{name}: {template_count[name]}    '
+    print(outmessage)
+
     print('Done')
     
 ## Setup clipboard monitor
