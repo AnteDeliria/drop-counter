@@ -1,5 +1,5 @@
 # Drop Counter
-A script that facilitates drop detection in games by using image recognition. So far only configured for Fantasy Online 2
+A script that facilitates drop detection in games by using image recognition. Configured for Fantasy Online 2
 
 # Running
 Note: only works on Windows
