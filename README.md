@@ -1,5 +1,5 @@
 # Drop Counter
-A script that facilitates drop detection in games by using image recognition. Configured for Fantasy Online 2
+A script that facilitates sprite detection in pixel games by using image recognition. Configured for Fantasy Online 2
 
 # Running (Windows)
 
@@ -11,5 +11,5 @@ Run dropcount.bat
 
 # Parameters
 
-Specify the template image files in drop-counter\Templates\ and index the file names in drops.json
+Specify the template image files in drop-counter\Templates\ and index the file names in drops.txt
 
